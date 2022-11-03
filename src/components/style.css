@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.left-side{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  padding: 50px;
+  justify-content: left;
+  flex-direction: column;
+  position: fixed;
+}
+h1{
+  margin-bottom: 20px;
+  
+}
+p{
+  display: block;
+  padding: 15px 0px 15px 0px;
+  opacity: 0.5;
+}
+ul{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+  display: flex-start;
+}
+hr{
+  width: 15%;
+  opacity: 0.5;
+}
+li{
+  opacity: 0.3;
+}
+li:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s;
+}
+img{
+  opacity: 0.4;
+  padding-right: 5px;
+}
+img:hover{
+  opacity: 1;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.images{
+  padding-top: 30px;
+  display: flex; 
+}
+.p{
+  opacity: 0.5;
+  font-size: 15px;
+}
+span:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.6s;
+}
