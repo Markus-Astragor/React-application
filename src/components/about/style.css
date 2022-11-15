@@ -1,0 +1,9 @@
+.prop {
+  width: 75%;
+  height: 100%;
+  padding: 10px 0px 0px 10px;
+  position: absolute;
+  background-color: whitesmoke;
+  right: 0;
+  top: 0;
+}
