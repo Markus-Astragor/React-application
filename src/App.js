@@ -1,25 +1,21 @@
 
-import './App.css';
-import Navigation from './components/sidebar/index';
-import Main_page from './components/cards/index2';
-import About from './components/about';
-import Contact from './components/contact';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
- const App = function App() {
+import './App.css';
+import NewHeadline from './components/New_Headline';
+import Footer from './components/Footer/Footer';
+import MyHeadline from './index2';
+import Header from './components/Header/Header';
+import Mycarousel from './components/Carousel/Carousel';
+
+function App() {
   return (
-    <BrowserRouter>
     <div className="App">
-   <Navigation/>
-   
-   <Routes>
-   <Route element={<Main_page/>} path='/'/>
-   <Route element={<About/>} path='/about'/>
-   <Route element={<Contact/>} path='/contact'/>
-   </Routes>
-    
+      <Header/>
+      <Mycarousel/>
+      <MyHeadline/>
+      <NewHeadline/>
+      <Footer/>
     </div>
-     </BrowserRouter>
   );
 }
 

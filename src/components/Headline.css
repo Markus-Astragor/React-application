@@ -1,0 +1,23 @@
+.first_component, .second_component, .third_component, .fourth_component{
+  display: flex;
+}
+.first_component {grid-area: first;}
+.second_component {grid-area: second;}
+.third_component {grid-area: third;}
+.fourth_component {grid-area: fourth;}
+.main{
+ width: 70%;
+ height: 100%;
+  display: grid;
+  grid-template-areas: 
+                      'first second'
+                      'third fourth';
+  gap: 10px;
+  margin: 0 auto;
+  
+}
+.underline{
+  color: #FFA51F;
+  float: inline-end;
+  cursor: pointer;
+}
