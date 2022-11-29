@@ -10,7 +10,7 @@ function Card(props){
   <p>{props.content}
     <br/>
     <br/>
-     {props.date} | <u className="topic">{props.topic}</u>
+     {props.date} | <u className="topic" onClick={()=>props.setSelectedTag(props.topic)}>{props.topic}</u>
      </p>
      </div>
      </div>
