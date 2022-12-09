@@ -1,0 +1,114 @@
+@media screen and (max-width: 900px){
+  .center-header {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70%;
+    text-align: center;
+  }
+  .main_header {
+    height: 1000px;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .image_and_info{
+    flex-direction: column;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .about_me_child{
+    width: 100%;
+  }
+  .services_container{
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 2fr, 1fr, 1fr, 2fr, 2fr; */
+    grid-template-areas:      'Design'
+                              'Development'
+                              'Photography'
+                              'Responsive_design'
+                              'Graphc_design'
+                              'Marketing_services';
+  }
+  .achievements{
+    padding-top: 17%;
+  }
+  .cards{
+    grid-template-areas:      'Tablet'
+                            'Tablet_Addition'
+                            'Chair'
+                            'Chair_Addition'
+                            'Laptop'
+                            'Laptop_Addition'
+                            'Laptop_and_coffee'
+                            'Laptop_And_Coffee_Addition'
+                            'My_Table'
+                            'Table_Addition'
+                            'Phone'
+                            'Phone_Addition';
+    width: 80%;
+  }
+  .cards > div{
+    box-sizing: border-box;
+    width: 390px;
+  }
+  .blog-cards{
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .main_content_relax_cards{
+    width: fit-content;
+  }
+  .main_content_relax_card{
+    width: fit-content;
+  }
+  .relax-card1, .relax-card2, .relax-card3{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .text_content{
+    width: 108%;
+  }
+  .text_content2{
+    width: 100%;
+  }
+  .main_text_content{
+    width: 344px;
+    text-align: center;
+  }
+  .Forms{
+    height: 1700px;
+  }
+  .container_of_forms{
+    flex-direction: column;
+    height: 1100px;
+    justify-content:space-between;
+    width: 85%;
+    left: 5%;
+  }
+  .first-part-form{
+    width: 90%;
+  }
+  .second-part-form{
+    width: 97%;
+  }
+  .child_header2{
+    display: none;
+  }
+  .burger-menu{
+    display: block;
+    position: absolute;
+    left: 85%;
+    top:25%;
+    bottom: 0;
+  }
+  .header2{
+    position: relative;
+  }
+  #start-btn{
+    position: fixed;
+    top: 90%;
+    left: 85%;
+   }
+}
