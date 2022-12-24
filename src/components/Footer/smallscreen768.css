@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px){
+  .Footer_content{
+    flex-direction: column;
+  }
+  .Footer{
+    height: 100%;
+  }
+}

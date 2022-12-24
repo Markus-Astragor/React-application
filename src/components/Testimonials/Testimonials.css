@@ -1,0 +1,82 @@
+.Testimonials{
+  position: relative;
+  height: 80vh;
+}
+
+.First_slider_Testimonials{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 30%;
+  color: black;
+}
+
+.MyH2{
+  color: black;
+  font-size: 25px;
+  line-height: 2.5;
+}
+
+.Second_slider_Testimonials{
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  width: 30%;
+  color: black;
+}
+
+.Testimonials_text {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+.Carousel {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.Carousel_images {
+  border-top-left-radius: 40%;
+
+}
+
+.Carousel_text {
+  font-size: 25px;
+}
+
+.btn_prev_next2 {
+  background-color: #DC3545;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #DC3545;
+  transition: 0.5s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_prev_next2:hover {
+  background-color: #f46573;
+  border-color: #f46573;
+}
+
+#next2 {
+  font-size: 16px;
+}
+
+#prev2 {
+  font-size: 16px;
+}
+
+.buttons {
+  position: absolute;
+  top: 94%;
+  left: 43%;
+}
+.img_and_btns{
+  position: relative;
+}

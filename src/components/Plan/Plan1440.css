@@ -1,0 +1,25 @@
+@media screen and (max-width: 1440px) {
+  .Plan_container {
+    position: absolute;
+    display: flex;
+    top: 27%;
+    left: 15%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Starters {
+    margin-top: 20px;
+    height: 77vh;
+  }
+
+  .Premium {
+    margin-top: 0px;
+    height: 82vh;
+  }
+
+  .Enterprise{
+    height: 78vh;
+  }
+}

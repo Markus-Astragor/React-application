@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+  .First_slider{
+    width: 70%;
+    padding-left: 30%;
+    padding-top: 2%;
+  }
+
+  .Second_slider{
+    width: 93%;
+    top: 70%;
+    left: 13%;
+  }
+
+  .Card{
+    width: 90%;
+  }
+}

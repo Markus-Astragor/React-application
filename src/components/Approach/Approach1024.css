@@ -1,0 +1,7 @@
+@media screen and (max-width: 1024px) {
+  .Approach_container{
+    grid-template-areas: 'Data'
+                            'Implementation'
+                            'Launch';
+  }
+}

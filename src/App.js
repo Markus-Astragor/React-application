@@ -1,25 +1,37 @@
-
+// https://preview.colorlib.com/#expert
+import React from 'react';
 import './App.css';
-import Navigation from './components/sidebar/index';
-import Main_page from './components/cards/index2';
-import About from './components/about';
-import Contact from './components/contact';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Approach from './components/Approach/Approach';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Intro from './components/Intro/Intro';
+import Plan from './components/Plan/Plan';
+import Projects from './components/Projects/Projects';
+import Services from './components/Services/Services';
+import Testimonials from './components/Testimonials/Testimonials';
+import Video from './components/Video/Video';
+import Works from './components/Works/Works';
 
- const App = function App() {
+
+
+const App = function App() {
   return (
-    <BrowserRouter>
+
     <div className="App">
-   <Navigation/>
-   
-   <Routes>
-   <Route element={<Main_page/>} path='/'/>
-   <Route element={<About/>} path='/about'/>
-   <Route element={<Contact/>} path='/contact'/>
-   </Routes>
-    
+      <Header />
+      <Intro />
+      <Works />
+      <Projects />
+      <Approach />
+      <Testimonials/>
+      <Services />
+      <Plan />
+      <Video />
+      <Contact />
+      <Footer />
     </div>
-     </BrowserRouter>
+
   );
 }
 

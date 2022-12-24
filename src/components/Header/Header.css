@@ -1,0 +1,101 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  height: 70px;
+  background-color: white;
+  }
+
+#expert {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  height: fit-content;
+}
+
+.List1 {
+  display: flex;
+  list-style-type: none;
+  width: 70%;
+}
+
+.List1>li {
+  padding: 5px 30px 15px 30px;
+  font-size: 18px;
+}
+
+.List2 {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+}
+
+.List2>li {
+  padding: 5px 25px 15px 25px;
+  font-size: 18px;
+}
+
+#red-btn {
+  background-color: #DC3545;
+  padding-top: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#Contact2{
+  color: white;
+}
+#red-btn:hover{
+  background-color:  #f46573;
+}
+#red-btn ::after{
+  background-color: white;
+}
+
+.link {
+  position: relative;
+  transition: 1s;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+
+.link::after{
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  content: "";
+  bottom: 0;
+  left: 50px;
+  right: 50px;
+  transition: 0.5s;
+}
+
+.link:hover::after {
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  content: "";
+  bottom: 0;
+  left: 3px;
+  right: 1px;
+}
+.active{
+  color: white;
+  
+}
+#list2{
+  color: black;
+}
+.Header.active{
+  color: white;
+  background-color: transparent;
+  transition: 1s;
+}
+.Header.active > .List1{
+  color: white;
+}

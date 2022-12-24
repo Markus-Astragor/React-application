@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px) {
+  .Works{
+    flex-direction: column;
+    height: 100%;
+  }
+  #Purple_square{
+    left: 44%;
+    bottom: -9%;
+  }
+  #Progress_bar{
+    width: 90%;
+    margin-top: 150px;
+  }
+}

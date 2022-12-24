@@ -1,0 +1,10 @@
+@media screen and (max-width: 1440px) {
+  .Purple_square{
+    left: 83%;
+    bottom: -4%;
+  }
+  .Progress_bar{
+    width: 60%;
+    margin-top: 100px;
+  }
+}

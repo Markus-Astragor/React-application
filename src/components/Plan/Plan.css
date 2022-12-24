@@ -1,0 +1,86 @@
+.Plan {
+  position: relative;
+  width: 100%;
+  height: 125vh;
+  margin-top: 50px;
+}
+
+.Plan_text {
+  background-color: #352961;
+  padding-top: 50px;
+  height: 50vh;
+  color: white;
+  text-align: center;
+}
+
+.Plan_text>h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.Plan_text>p {
+  font-size: 20px;
+}
+
+.Plan_container {
+  position: absolute;
+  top: 24%;
+  left: 22%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Starters,
+.Premium,
+.Enterprise {
+  background-color: white;
+  line-height: 2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: -1px 11px 11px 1px gray;
+  text-align: center;
+}
+
+.Starters {
+  margin-top: 20px;
+  height: 62vh;
+}
+
+.Starters>h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.Enterprise {
+  margin-top: 20px;
+  height: 62vh;
+}
+
+.Premium {
+  height: 66vh;
+  z-index: 2;
+}
+
+.Pricing_buttons {
+  border: 2px solid #352961;
+  color: black;
+  padding: 15px 30px 15px 30px;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.Pricing_buttons:hover {
+  background-color: #352961;
+  color: white;
+  cursor: pointer;
+}
+
+#Premium_btn{
+  border: 2px solid #dc3545;
+}
+#Premium_btn:hover{
+  background-color: #dc3545;
+}

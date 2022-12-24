@@ -1,0 +1,25 @@
+.Services{
+  margin-top: 150px;
+  padding-top: 50px;
+  background-color: #f1f3f8;
+}
+.Services_text{
+  width: 60%;
+  margin: 0 auto;
+}
+.Cards_info{
+  padding: 15px;
+  width: 80%;
+  background-color: white;
+  margin: 15px;
+  width: 250px;
+  height: 250px;
+  height: 100%;
+}
+.Services_container{
+  width: 95%;
+  margin: 0 auto;
+}
+.Purple_title.small{
+  font-size: 25px;
+}

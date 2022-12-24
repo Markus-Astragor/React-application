@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .Testimonials{
+    position: relative;
+    height: 140vh;
+  }
+
+  .First_slider_Testimonials{
+    position: absolute;
+    top: 58%;
+    left: 29%;
+    width: 50%;
+    color: black;
+  }
+  .Second_slider_Testimonials{
+    position: absolute;
+    top: 17%;
+    left: 19%;
+    width: 66%;
+    color: black;
+  }
+}

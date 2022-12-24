@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px) {
+  .Plan_container {
+    top: 24%;
+    left: 0%;
+    height: 70vh;
+  }
+
+  .Starters {
+    margin-top: 20px;
+    height: 77vh;
+  }
+
+  .Premium {
+    margin-top: 0px;
+    height: 82vh;
+  }
+
+  .Enterprise{
+    height: 78vh;
+  }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 1440px) {
+  #Contact{
+    width: 100%;
+  }
+
+  .Right_side_image{
+    margin-left: 60px;
+  }
+  .Contact_text_forms{
+    margin-left: 60px;
+  }
+}
