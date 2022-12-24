@@ -86,6 +86,26 @@ export default class AsNavFor extends Component {
               autoplaySpeed = {2000}
               pauseOnHover = {true}
               slidesToScroll = {2}
+              appendDots = {dots => (
+                <div style={{
+                  borderRadius: "5px",
+                  transition: "0.5s",
+                  padding: "10px 10px 10px 10px"
+                }}>
+                  <ul style={{ margin: "0px" }}>{dots}</ul>
+                </div>
+              )}
+               
+              customPaging = {i => (
+                <div style={{
+                  backgroundColor : "#DC3545",
+                  width: "50px",
+                  height: "50px",
+                  color: "white",
+                  border: "2px solid #DC3545"
+                }}
+                >{i + 1}</div>
+              )}
             >
               <div>
                 <img src={copter} width={mywidth_height} height={mywidth_height} className={img_class} />
