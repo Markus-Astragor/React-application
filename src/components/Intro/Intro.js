@@ -90,9 +90,9 @@ export default class AsNavFor extends Component {
                 <div style={{
                   borderRadius: "5px",
                   transition: "0.5s",
-                  padding: "10px 10px 10px 10px"
+                  
                 }}>
-                  <ul style={{ margin: "0px" }}>{dots}</ul>
+                  <ul style={{ margin: "3px" }}>{dots}</ul>
                 </div>
               )}
                
@@ -102,7 +102,9 @@ export default class AsNavFor extends Component {
                   width: "50px",
                   height: "50px",
                   color: "white",
-                  border: "2px solid #DC3545"
+                  border: "2px solid #DC3545",
+                  paddingTop: "20px",
+                  borderRadius: "8px",
                 }}
                 >{i + 1}</div>
               )}

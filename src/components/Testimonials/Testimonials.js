@@ -110,7 +110,9 @@ export default class AsNavFor extends Component {
                   width: "50px",
                   height: "50px",
                   color: "white",
-                  border: "2px solid #DC3545"
+                  border: "2px solid #DC3545",
+                  paddingTop: "20px",
+                  borderRadius: "8px",
                 }}
                 >{i + 1}</div>
               )}
